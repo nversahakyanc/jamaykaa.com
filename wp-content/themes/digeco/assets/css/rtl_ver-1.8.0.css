@@ -1,0 +1,150 @@
+/*Font Awesome css*/
+.button-1 i,
+.btn-ghost i {
+	margin-top: 0;
+    -webkit-transform: translateX(0px) rotate(180deg);
+    -ms-transform: translateX(0px) rotate(180deg);
+    transform: translateX(0px) rotate(180deg);
+}
+.button-1:hover i,
+.btn-ghost:hover i {
+    -webkit-transform: translateX(-5px) rotate(180deg);
+    -ms-transform: translateX(-5px) rotate(180deg);
+    transform: translateX(-5px) rotate(180deg);
+}
+.button-gradient-1 i {
+	margin-top: 0;
+    -webkit-transform: translateX(0px) rotate(180deg);
+    -ms-transform: translateX(0px) rotate(180deg);
+    transform: translateX(0px) rotate(180deg);
+}
+.button-gradient-1:hover i {
+    -webkit-transform: translateX(-5px) rotate(180deg);
+    -ms-transform: translateX(-5px) rotate(180deg);
+    transform: translateX(-5px) rotate(180deg);
+}
+.rs-parallax-wrap .rtin-play .rtin-icon i {
+    margin-right: 0 !important;
+}
+/*header css*/
+.mean-container a.meanmenu-reveal {
+	left: 0 !important;
+	right: auto !important;
+}
+.mean-container .mean-nav ul li a:before {
+    content: "\f177";
+}
+.site-header .main-navigation ul li ul.sub-menu li.menu-item-has-children:before {
+    content: "\f104";
+}
+/*footer css*/
+.footer-top-area .widget ul.menu li a {
+	padding-right: 15px;
+}
+.footer-top-area .widget ul.menu li a:before {
+	position: absolute;
+    right: 0;
+	content: "\f104";
+}
+/*Custom css*/
+[dir='rtl'] .slick-prev {
+    left: 15px !important;
+}
+[dir='rtl'] .slick-next {
+    right: 15px !important;
+}
+.estimate-form .form-group button i {
+	padding-right: 0;
+	padding-left: 8px;
+}
+.online-form .form-group button i {
+    padding-right: 0px;
+    padding-left: 8px;
+}
+.fixed-side-bar .fixed-bar-coloum {
+    display: inherit;
+}
+.product-info-area.text-right {
+	text-align: right !important;
+	overflow: hidden;
+}
+.product-grid-view .product-info-area.text-right {
+	text-align: center !important;
+}
+.single-product .rtwpvg-images {
+	float: right;
+}
+/*******new css********/
+.rt-video .item-icon .rtin-play i:before {
+    margin-left: 0.3125rem;
+	margin-right: 0;
+}
+.about-layout-style1 .indicator-wrap .indicator-img-right {
+	right: -0.9375rem;
+	left: auto;
+}
+.about-layout-style1 .indicator-wrap .indicator-img-left {
+	left: -1.25rem;
+    right: auto;
+}
+.video-style3 .animated-figure {
+    -webkit-transform: translateX(4.125rem);
+    -ms-transform: translateX(4.125rem);
+    transform: translateX(4.125rem);
+}
+.animate-shape-style13 .shape-point .end-point {
+    top: 0;
+    transform: rotate(-90deg);
+}
+.animate-shape-style11 .animated-shape li {
+    left: -4rem;
+}
+.breadcrumb-area .entry-breadcrumb > span.current-item {
+	color: #cecece;
+}
+.team-single .rtin-content ul.rtin-team-info li i {
+	float: right;
+}
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right {
+	float: left;
+}
+.rt-owl-nav-1.slider-nav-enabled .owl-carousel .owl-nav i,
+.rt-owl-nav-2.slider-nav-enabled .owl-carousel .owl-nav i,
+.rt-owl-nav-3.slider-nav-enabled .owl-carousel .owl-nav i {
+    margin-top: 0;
+    transform: rotate(180deg);
+}
+.animate-shape-style6 .animated-shape ul li {
+    transform: translateY(20%) rotate(180deg);
+}
+.rtin-testimonial-7 .owl-carousel .owl-nav {
+    left: -25%;
+    right: inherit;
+}
+.rt-owl-nav-4.slider-nav-enabled .owl-carousel .owl-nav i {
+    transform: rotate(180deg);
+}
+.rtin-testimonial-7 .rtin-item .media {
+	text-align: right;
+}
+.rtin-testimonial-7 .rtin-item .media img {
+    margin-left: 0.9375rem;
+	margin-right: 0px;
+}
+.rtin-pricing-layout1 .rt-price-table-box .rtin-price,
+.rtin-pricing-layout2 .rt-price-table-box .rtin-price,
+.rtin-pricing-layout4 .rt-price-table-box .rtin-price {
+	margin-right: 25px;
+}
+.rtin-pricing-layout1 .rt-price-table-box .rtin-price .price-symbol,
+.rtin-pricing-layout2 .rt-price-table-box .rtin-price .price-symbol,
+.rtin-pricing-layout4 .rt-price-table-box .rtin-price .price-symbol {
+	position: absolute;
+	right: -25px;
+}
+.progress-circular-layout .progress-circular input {
+	margin-right: -77px !important;
+}
+.info-box-style20 .item-btn i{
+    transform: rotate(180deg);
+}
