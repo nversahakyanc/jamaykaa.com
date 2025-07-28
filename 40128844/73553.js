@@ -56,6 +56,20 @@
     });
   })();
   
-  
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.querySelector('.sidebarBtn');
+    const menu = document.querySelector('.rt-slide-nav');
+
+    if (!toggleBtn || !menu) {
+      console.warn("Menu elements not found");
+      return;
+    }
+
+    toggleBtn.addEventListener("click", function () {
+      menu.classList.toggle("active");
+      console.log("Toggle clicked — active class toggled");
+    });
+  });
+
 
 
