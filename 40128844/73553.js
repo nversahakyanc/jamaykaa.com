@@ -20,7 +20,7 @@
   
     // Message wrapper to center
     const messageWrapper = document.createElement("div");
-    messageWrapper.innerHTML = "Buy this aged domain and original website togather (2 in 1) — now available at a highly affordable price on <a href='https://age.domains' target='_blank' style='color: inherit; text-decoration: underline;'>age.domains</a>!";
+    messageWrapper.innerHTML = "Buy this aged domain and original website together (2 in 1) — now available at a highly affordable price on <a href='https://age.domains' target='_blank' style='color: inherit; text-decoration: underline;'>age.domains</a>!";
     messageWrapper.style.maxWidth = "100%";
     messageWrapper.style.margin = "0 auto";
     messageWrapper.style.display = "inline-block";
